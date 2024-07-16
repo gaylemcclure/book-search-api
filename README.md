@@ -5,9 +5,11 @@
   
   ## DESCRIPTION
 This Google Book Search API is designed to search for books via the input, create a user, save/delete books from your searches. This was originally built with a RESTful API but has been refactored to use a GraphQL API built with Apollo Server. 
-Video walkthrough:
-[![alt text](assets/insomnia1.png)](https://www.loom.com/share/ae637328365c43bc836597f92e8c63d9?sid=51d7ac87-c9e5-4e69-9804-05b03db4cce3)
-[![alt text](assets/insomnia2.png)](https://www.loom.com/share/58dcbb20bdea4747a92aee8980ae5b38?sid=161c986e-e55d-4acf-b207-3dc96dd58002)
+[Click here](https://book-search-api-vuu1.onrender.com/) to visit the book search site
+
+![alt text](assets/1.png)
+![alt text](assets/2.png)
+![alt text](assets/3.png)
 
 
   ## TABLE OF CONTENTS
@@ -44,7 +46,7 @@ To clone from Github, use GitBash
   
   ## CONTRIBUTIONS
   Created by Gayle McClure   
-  Uses JavaScript, node.js, postgres db, express
+  Uses JavaScript, node.js, mongoose db, express, Apollo Server, GraphQL, React
   
   
   ## QUESTIONS
