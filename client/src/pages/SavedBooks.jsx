@@ -10,14 +10,14 @@ import {
 import Auth from '../utils/auth';
 import { useMutation, useQuery } from "@apollo/client";
 import { REMOVE_BOOK } from "../utils/mutations";
-import { QUERY_ME } from '../utils/queries';
+import { GET_ME } from '../utils/queries';
 import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
 
   const [userData, setUserData] = useState({})
   const [removeBook] = useMutation(REMOVE_BOOK);
-  const { data } = useQuery(QUERY_ME);
+  const { data } = useQuery(GET_ME);
   const user = data?.me;
 
 
